@@ -1,20 +1,20 @@
 {
   "name": "test-repo",
   "version": "1.0.0",
-  "description": "Test Node.js repository",
-  "main": "index.js",
+  "description": "Test Next.js repository",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DevJihwan/test-repo.git"
   },
   "keywords": [
-    "node",
-    "express",
+    "next",
+    "react",
     "test"
   ],
   "author": "",
@@ -24,9 +24,12 @@
   },
   "homepage": "https://github.com/DevJihwan/test-repo#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "eslint": "^8.53.0",
+    "eslint-config-next": "^14.0.0"
   }
 }

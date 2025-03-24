@@ -1,46 +1,47 @@
-# test-repo
+# Test Repository - Next.js 14
 
-A simple Node.js API project with Express.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with Next.js 14.
 
-## Installation
+## Getting Started
+
+First, install the dependencies:
 
 ```bash
-# Clone the repository
-git clone https://github.com/DevJihwan/test-repo.git
-
-# Navigate to project directory
-cd test-repo
-
-# Install dependencies
 npm install
+# or
+yarn
+# or
+pnpm install
 ```
 
-## Usage
+Then, run the development server:
 
 ```bash
-# Start the server
-npm start
-
-# Start with nodemon for development (auto-reload)
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
-The server will run on http://localhost:3000
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## API Endpoints
+## API Routes
 
-- `GET /`: Welcome message
-- `GET /api/items`: Get sample items
+This project includes the following API routes:
 
-## Project Structure
+- `/api/hello` - Basic welcome message
+- `/api/items` - Returns a list of sample items
 
-```
-├── index.js         # Main application entry point
-├── package.json     # Project metadata and dependencies
-├── .gitignore       # Git ignore rules
-└── README.md        # Project documentation
-```
+## Learn More
 
-## License
+To learn more about Next.js, take a look at the following resources:
 
-ISC
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new) from the creators of Next.js.
+
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
