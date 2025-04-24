@@ -1,47 +1,78 @@
-# Test Repository - Next.js 14
+# Test React Repository
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with Next.js 14.
+This is a basic React application that was converted from a Next.js project.
+
+## Features
+
+- React 18
+- React Router for client-side routing
+- Modern JavaScript syntax
+- Component-based architecture
 
 ## Getting Started
 
-First, install the dependencies:
+Follow these instructions to get the project up and running on your local machine.
 
-```bash
-npm install
-# or
-yarn
-# or
-pnpm install
+### Prerequisites
+
+- Node.js (v16 or later)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/DevJihwan/test-repo.git
+   cd test-repo
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
+
+3. Start the development server:
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+- `npm start` - Runs the app in development mode
+- `npm test` - Launches the test runner
+- `npm run build` - Builds the app for production
+- `npm run eject` - Ejects the app from Create React App
+
+## Project Structure
+
+```
+test-repo/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   ├── manifest.json
+│   └── robots.txt
+├── src/
+│   ├── components/
+│   │   ├── Home.js
+│   │   └── NotFound.js
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   ├── index.css
+│   └── reportWebVitals.js
+├── package.json
+└── README.md
 ```
 
-Then, run the development server:
+## License
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## API Routes
-
-This project includes the following API routes:
-
-- `/api/hello` - Basic welcome message
-- `/api/items` - Returns a list of sample items
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new) from the creators of Next.js.
-
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the ISC License.
