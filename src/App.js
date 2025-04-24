@@ -6,7 +6,7 @@ import NotFound from './components/NotFound';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/DevJihwan/test-repo">
       <div className="App">
         <header className="App-header">
           <h1>Welcome to the test-repo React App!</h1>
