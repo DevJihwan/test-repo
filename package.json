@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/DevJihwan/test-repo/issues"
   },
-  "homepage": "https://github.com/DevJihwan/test-repo#readme",
+  "homepage": "/DevJihwan/test-repo/",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
